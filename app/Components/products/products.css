@@ -1,0 +1,85 @@
+.menu{
+    width: 100%;
+    height: 670px;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.menu::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    width: 90%;
+    height: 190px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    /* background-image: url(https://images.pexels.com/photos/6210933/pexels-photo-6210933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+
+}
+.card:hover .centered{
+    visibility: visible;
+}
+.centered{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 70px;
+    top: 40%;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.114);
+    transition: all 2s;
+    border-radius: 20px;
+}
+.viewBtn{
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.viewBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.centered h3{
+    background-color: rgb(94, 25, 204);
+    color: rgb(235, 224, 224);
+}
+.prize{
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin-top: 20px;
+    margin: auto;
+}
+.Buttons{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+   bottom: 0;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.nextBtn{
+    width: 50%;
+    height: 60px;
+    background-color: green;
+    color: white;
+}
+.addmoreBtn{
+    width: 50%;
+    height: 60px;
+    background-color: rgb(13, 60, 216);
+    color: white;
+}

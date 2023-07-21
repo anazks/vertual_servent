@@ -1,0 +1,40 @@
+.payment{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color:#f2f5fa ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20%;
+}
+.payment h1{
+    text-align: center;
+    font-size: 26px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bottm{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 36%;
+  
+}
+.payNowBtn{
+   background-color: green;
+   color: white;
+   padding: 10px 20px;
+}
+.payLeterBtn{
+    background-color: rgb(23, 121, 241);
+    color: white;
+    padding: 10px 20px;
+ }
+ .contents{
+    width: 100%;
+    margin: auto;
+ }
+ .contents h2{
+    text-align: center;
+ }
